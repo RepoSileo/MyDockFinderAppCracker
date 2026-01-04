@@ -10,7 +10,6 @@ W1xcedBypassLoL/LIBDock/Buckapp_for_work -> Drop here the MyDockFinder files tha
 Dock_64.exe
 steam_api.dll
 steam_api64.dll
-----------------
 
 C:\Users\****\Downloads\MyDockFinder\MyDockFinder <- Move the MyDockFinder folder here that you wanted crack
 
