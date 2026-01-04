@@ -19,3 +19,6 @@ C:\Users\****\Downloads\MyDockFinder\MyDockFinder <- Move the MyDockFinder folde
         Open Dock_64.exe after these actions and then close it
      3 - Type 2 for Manipulate file replacement 
         Wait 2 - 3 Second and Type Enter
+
+Sorry, I lost the original .py file.
+----
