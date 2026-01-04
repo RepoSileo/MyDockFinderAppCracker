@@ -1,0 +1,98 @@
+[
+  {
+    "description": "",
+    "displayName": "MyDockFinder old users",
+    "hidden": 0,
+    "icon": "achievement_images/a3ca2cbfe5b73bda5f4737e8fe0ff0a6c11729f1.jpg",
+    "icongray": "achievement_images/16dcefeafcc1f1c7449ae76aa1ffc44be7e32024.jpg",
+    "name": "ACT_INI"
+  },
+  {
+    "description": "Use the steam cloud to back up the configuration file once",
+    "displayName": "Steam cloud backup",
+    "hidden": 0,
+    "icon": "achievement_images/fcfd728e670537b17b1e90487d45156881613ae6.jpg",
+    "icongray": "achievement_images/5f4a745713905728f1ea1ab074a6e3f4caf4a38f.jpg",
+    "name": "ACT_STEAMINI"
+  },
+  {
+    "description": "Edit once icon",
+    "displayName": "Edit icon for the first time",
+    "hidden": 0,
+    "icon": "achievement_images/e9787eb41cdde4299968a2bd4bbace72eb541084.jpg",
+    "icongray": "achievement_images/4ef464b4533582dcf4c36aef015247fe77055181.jpg",
+    "name": "ACT_EDITICO"
+  },
+  {
+    "description": "Add a weather forecast icon",
+    "displayName": "Weather forecast",
+    "hidden": 0,
+    "icon": "achievement_images/a4709d9a7a46ddf4aecae016b86be19470d45dfa.jpg",
+    "icongray": "achievement_images/7eaf4bbb18a2afd51daa70267bd857c10d0c2399.jpg",
+    "name": "ACT_WEATHER"
+  },
+  {
+    "description": "Drag and drop to add an icon",
+    "displayName": "Add icon",
+    "hidden": 0,
+    "icon": "achievement_images/587b93802b72f7bde471a4b055359ccc54e8972b.jpg",
+    "icongray": "achievement_images/f806601ceed8345c62173c4f956b88ba4c3075a7.jpg",
+    "name": "ACT_ADDICO"
+  },
+  {
+    "description": "Add an icon to the launch pad",
+    "displayName": "App library",
+    "hidden": 0,
+    "icon": "achievement_images/7b9b52a7c3c42852660203334b466702ddbd9444.jpg",
+    "icongray": "achievement_images/6d4c9cdce93fe14c897c208899143f074cadfe28.jpg",
+    "name": "ACT_LAUNCHPADICO"
+  },
+  {
+    "description": "Manually select an image logo",
+    "displayName": "Custom logo",
+    "hidden": 0,
+    "icon": "achievement_images/2688384ac0a12edb60adbc0d6b12fbe28deda06d.jpg",
+    "icongray": "achievement_images/98ba4635463910c8905893740ce9eb20f0b84c1c.jpg",
+    "name": "ACT_LOGO"
+  },
+  {
+    "description": "Shut down once from the MyFinder menu",
+    "displayName": "Turn off the computer",
+    "hidden": 0,
+    "icon": "achievement_images/94854649704885440164ce46bd87cdca051cd88a.jpg",
+    "icongray": "achievement_images/dc1c1f0fff8a86ee8610d7635cf32f576fc953d0.jpg",
+    "name": "ACT_SHUTDOWN"
+  },
+  {
+    "description": "Right-click the MyFinder button to activate the system function",
+    "displayName": "System functions",
+    "hidden": 0,
+    "icon": "achievement_images/c92a73aa8622b590074e1982bf0977a1884d8c8a.jpg",
+    "icongray": "achievement_images/7b229e52f9f393362d015c802a9fd31a8947e1ec.jpg",
+    "name": "ACT_RIGHTCLICK"
+  },
+  {
+    "description": "Turn on a CPU or memory detection function",
+    "displayName": "System detection",
+    "hidden": 0,
+    "icon": "achievement_images/e9787eb41cdde4299968a2bd4bbace72eb541084.jpg",
+    "icongray": "achievement_images/4ef464b4533582dcf4c36aef015247fe77055181.jpg",
+    "name": "ACT_MONITOR"
+  },
+  {
+    "description": "Click the button on the left side of the tray list to set a constant display icon",
+    "displayName": "Tray icon",
+    "hidden": 0,
+    "icon": "achievement_images/cd874660ca73865a8598db323b910c22eb284698.jpg",
+    "icongray": "achievement_images/f4eecaeed4d7f0ae65ca7a11fb66560cb621cedd.jpg",
+    "name": "ACT_TRAYICO"
+  },
+  {
+    "description": "Hold down Ctrl and drag and drop the MyFinder bar button position once",
+    "displayName": "Button sort",
+    "hidden": 0,
+    "icon": "achievement_images/528c18123002ed016d508c64bfb0805c3808afb5.jpg",
+    "icongray": "achievement_images/6b9cba2c7ce6697f16379cb23031ed8212d2ae1b.jpg",
+    "name": "ACT_DROPBTN"
+  }
+]
