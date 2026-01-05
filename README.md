@@ -20,3 +20,10 @@ C:\Users\****\Downloads\MyDockFinder\MyDockFinder <- Move the MyDockFinder folde
      3 - Type 2 for Manipulate file replacement 
         Wait 2 - 3 Second and Type Enter
 
+What's version MyDockFinder cracked this program
+--
+This -> v1.10.9.5, v1.10.9.7, v1.10.9.8
+
+This project created
+--
+By t.me/@W1xced for t.me/@LIBDock 
