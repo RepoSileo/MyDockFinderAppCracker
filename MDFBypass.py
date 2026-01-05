@@ -18,24 +18,22 @@ def header():
     print(f"{BLUE}Bypass MyDockFinder By @LIBDock channel{RESET}")
     print("=" * 50)
 
-def get_base_dir():
+def get_exe_dir():
+    """Папка, где лежит .exe (или .py при отладке)"""
     if getattr(sys, 'frozen', False):
         return Path(sys.executable).parent.resolve()
     else:
         return Path(__file__).parent.resolve()
 
-def get_meipass_dir():
-    if getattr(sys, 'frozen', False):
-        return Path(sys._MEIPASS)
-    else:
-        return get_base_dir()
-
-def find_target_dir(base_dir: Path) -> Path | None:
+def find_target_dir() -> Path | None:
+    """Ищет MyDockFinder в приоритетных местах"""
+    base = get_exe_dir()
+    cwd = Path.cwd()
     candidates = [
-        base_dir / "MyDockFinder",                    
-        base_dir / "MyDockFinder" / "MyDockFinder",  
-        Path.cwd() / "MyDockFinder",                 
-        Path.cwd() / "MyDockFinder" / "MyDockFinder",
+        base / "MyDockFinder",
+        base / "MyDockFinder" / "MyDockFinder",
+        cwd / "MyDockFinder",
+        cwd / "MyDockFinder" / "MyDockFinder",
     ]
     for cand in candidates:
         if cand.is_dir() and (cand / "Dock_64.exe").is_file():
@@ -48,6 +46,8 @@ def copy_if_exists(src, dst, label):
         return False
     try:
         if src.is_file():
+            if dst.exists():
+                dst.unlink()
             shutil.copy2(src, dst)
             print(f"{GREEN}✓ {label}{RESET}")
         elif src.is_dir():
@@ -67,19 +67,19 @@ def copy_if_exists(src, dst, label):
         return False
 
 def bypass_libdock():
-    meipass = get_meipass_dir()
-    base_dir = get_base_dir()
-    target = find_target_dir(base_dir)
-    libdock = meipass / "W1xcedBypassLoL" / "LIBDock"
+    exe_dir = get_exe_dir()
+    target = find_target_dir()
+    libdock = exe_dir / "W1xcedBypassLoL" / "LIBDock"
 
     if not libdock.exists():
-        print(f"{RED}W1xcedBypassLoL/LIBDock not found inside exe — rebuild with --add-data{RESET}")
+        print(f"{RED}W1xcedBypassLoL/LIBDock not found. Expected in same folder as .exe.{RESET}")
         return
     if not target:
-        print(f"{RED}MyDockFinder folder not found. Expected 'MyDockFinder' or 'MyDockFinder/MyDockFinder' near the .exe.{RESET}")
+        print(f"{RED}MyDockFinder folder not found.{RESET}")
         return
 
-    print(f"\n→ Target found: {target}")
+    print(f"\n→ LIBDock: {libdock}")
+    print(f"→ Target:  {target}")
     print("→ Bypass @LIBDock (single pass)...")
     copy_if_exists(libdock / "Dock_64.exe",      target / "Dock_64.exe",      "Dock_64.exe")
     copy_if_exists(libdock / "steam_api.dll",    target / "steam_api.dll",    "steam_api.dll")
@@ -89,10 +89,9 @@ def bypass_libdock():
     print(f"\n{GREEN}Bypass done By @W1xced, @LIBDock{RESET}")
 
 def manipulate_replacement():
-    meipass = get_meipass_dir()
-    base_dir = get_base_dir()
-    target = find_target_dir(base_dir)
-    libdock = meipass / "W1xcedBypassLoL" / "LIBDock"
+    exe_dir = get_exe_dir()
+    target = find_target_dir()
+    libdock = exe_dir / "W1xcedBypassLoL" / "LIBDock"
     buckapp = libdock / "Buckapp_for_work"
 
     for name, p in [("LIBDock", libdock), ("Buckapp_for_work", buckapp)]:
@@ -100,10 +99,12 @@ def manipulate_replacement():
             print(f"{RED}Folder not found: {name} → {p}{RESET}")
             return
     if not target:
-        print(f"{RED}MyDockFinder folder not found. Expected 'MyDockFinder' or 'MyDockFinder/MyDockFinder' near the .exe.{RESET}")
+        print(f"{RED}MyDockFinder folder not found.{RESET}")
         return
 
-    print(f"\n→ Target found: {target}")
+    print(f"\n→ LIBDock: {libdock}")
+    print(f"→ Buckapp: {buckapp}")
+    print(f"→ Target:  {target}")
     print("→ Stage 1: Copy from LIBDock...")
     copy_if_exists(libdock / "Dock_64.exe",      target / "Dock_64.exe",      "Dock_64.exe")
     copy_if_exists(libdock / "steam_api.dll",    target / "steam_api.dll",    "steam_api.dll")
