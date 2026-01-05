@@ -26,4 +26,4 @@ This -> v1.10.9.5, v1.10.9.7, v1.10.9.8
 
 This project created
 --
-By t.me/@W1xced for t.me/@LIBDock 
+By t.me/W1xced for t.me/LIBDock 
