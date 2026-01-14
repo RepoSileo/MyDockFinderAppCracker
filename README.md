@@ -1,4 +1,7 @@
 # MyDockFinderAppCracker
+
+https://github.com/RepoSileo/MDF_Base_For_Crack <- This is an alternative Steam emulator work now you can save your configs
+
 AppCracker for MyDockFinder license changer 
 
 How to use this? 
