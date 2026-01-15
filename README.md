@@ -1,32 +1,48 @@
-# MyDockFinderAppCracker
+# MyDockFinder AppCracker
 
-https://github.com/RepoSileo/MDF_Base_For_Crack <- This is an alternative Steam emulator work now you can save your configs
+🔗 Alternative Steam emulator: [MDF_Base_For_Crack](https://github.com/RepoSileo/MDF_Base_For_Crack)  
+This emulator allows you to save your configs.
 
-AppCracker for MyDockFinder license changer 
+---
 
-How to use this? 
+## 🎯 Purpose
+AppCracker for **MyDockFinder** — license changer & bypass tool.
 
-W1xcedBypassLoL/LIBDock -> This file for license bypass
+---
 
-W1xcedBypassLoL/LIBDock/Buckapp_for_work -> Drop here the MyDockFinder files that you want to crack
+## 📦 How to Use
 
-Dock_64.exe
-steam_api.dll
-steam_api64.dll
+1. **Prepare files**
+   - Go to: `W1xcedBypassLoL/LIBDock` → this is the license bypass tool.
+   - Inside: `W1xcedBypassLoL/LIBDock/Buckapp_for_work` → place the **MyDockFinder** files you want to crack:
+     - `Dock_64.exe`
+     - `steam_api.dll`
+     - `steam_api64.dll`
 
-C:\Users\****\Downloads\MyDockFinder\MyDockFinder <- Move the MyDockFinder folder here that you wanted crack
+2. **Move MyDockFinder folder**
+   - Copy your MyDockFinder folder to:  
+     `C:\Users\****\Downloads\MyDockFinder\MyDockFinder`
 
-1 - open file - MDFBypass.exe 
-     2 - Type 1 for Bypass 
-        Wait 2 - 3 Second and Type Enter
-        Open Dock_64.exe after these actions and then close it
-     3 - Type 2 for Manipulate file replacement 
-        Wait 2 - 3 Second and Type Enter
+3. **Run the bypass**
+   - Open `MDFBypass.exe`
+   - Type **1** → *Bypass mode*  
+     - Wait 2–3 seconds, press **Enter**  
+     - Launch `Dock_64.exe` once, then close it.
+   - Type **2** → *File replacement mode*  
+     - Wait 2–3 seconds, press **Enter**
 
-What's version MyDockFinder cracked this program
---
-This -> v1.10.9.5, v1.10.9.7, v1.10.9.8, v1.10.9.9
+4. **Finish**
+   - After these steps, MyDockFinder should run with the bypass applied.
 
-This project created
---
-By t.me/W1xced for t.me/LIBDock 
+---
+
+## ✅ Tested Versions
+- v1.10.9.5  
+- v1.10.9.7  
+- v1.10.9.8  
+- v1.10.9.9  
+
+---
+
+## 👨‍💻 Project Info
+Created by [t.me/W1xced](https://t.me/W1xced) for [t.me/LIBDock](https://t.me/LIBDock)
